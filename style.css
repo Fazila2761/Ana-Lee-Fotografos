@@ -1,0 +1,65 @@
+body{
+     background-color: #f8f9fa;
+}
+ .navbar, ul, li, h1, button {
+     font-family: 'Poppins', sans-serif;
+}
+ .navbar-brand {
+     font-weight: bolder;
+}
+ .ana {
+     font-size: 30px;
+     font-weight: bolder;
+ }
+ li, p, span {
+     font-size: 18px;
+}
+ h4 {
+     font-weight: bolder;
+}
+ .plu {
+     width:600px;
+     height:400px;
+}
+ .plus {
+     width:100%;
+     height:800px;
+}
+
+
+ @media all and (max-width:800px) {
+   #carouselExampleIndicators{
+     margin-top:100px;
+   }
+     .magic {
+         width:100%;
+    }
+     .plu {
+         width:310px;
+         height:200px;
+    }
+}
+ .plus {
+     width:100%;
+     height:800px;
+}
+
+ @media all and (max-width:500px) {
+    #carouselExampleIndicators{
+     margin-top:100px;
+   }
+     .magic {
+         width:100%;
+    }
+     .plu {
+         width:310px;
+         height:200px;
+    }
+     .plus {
+         width:100%;
+         height:280px;
+    }
+     .ana{
+         font-size:25px;
+    }
+}
